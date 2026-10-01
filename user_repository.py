@@ -14,9 +14,8 @@ class JsonPlaceholderUserRepository:
         raise ConnectionError("User service unavailable")
 """
 
-"""
+
 class FakeUserRepository:
     def get_user_email(self, user_id):
         # TODO: retornar un email ficticio
         return f"user_{user_id}@example.com"
-"""
